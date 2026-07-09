@@ -189,14 +189,14 @@ const PIN = '2026';
 const CATS = [
   {id:'fixed',name:'Fixed Bills',color:'#6080a0',budget:0},
   {id:'groceries',name:'Groceries',color:'#2d9a5c',budget:600},
-  {id:'dining_james',name:'Dining (James)',color:'#dc3545',budget:0},
-  {id:'dining_megan',name:'Dining (Megan)',color:'#e67e22',budget:0},
-  {id:'dining_both',name:'Dining (Both)',color:'#8b5cf6',budget:0},
+  {id:'dining_james',name:'James Dining/Entertainment',color:'#dc3545',budget:200},
+  {id:'dining_megan',name:'Megan Dining/Entertainment',color:'#e67e22',budget:200},
+  {id:'dining_family',name:'Family Dining/Entertainment',color:'#8b5cf6',budget:200},
+  {id:'dining_date',name:'Date Night',color:'#ec4899',budget:200},
   {id:'gas',name:'Gas / Fuel',color:'#6c757d',budget:130},
   {id:'debt',name:'Debt Paydown',color:'#e67e22',budget:1600},
   {id:'streaming',name:'Streaming',color:'#2563eb',budget:68},
   {id:'gaming',name:'Gaming',color:'#7c3aed',budget:42},
-  {id:'entertainment',name:'Entertainment',color:'#ec4899',budget:80},
   {id:'personalcare',name:'Personal Care',color:'#f59e0b',budget:120},
   {id:'kids',name:'Kids',color:'#06b6d4',budget:75},
   {id:'coffee',name:'Coffee',color:'#92400e',budget:106},
@@ -407,7 +407,7 @@ function guessCategory(desc) {
   if (/netflix|hulu|spotify|disney|youtube|apple.*tv|hbo/i.test(d)) return 'streaming';
   if (/amazon|amzn/i.test(d)) return 'household';
   if (/starbucks|scooter|coffee/i.test(d)) return 'coffee';
-  if (/chipotle|restaurant|grubhub|doordash|mcdonald|wendy|chick-fil|pizza|taco/i.test(d)) return 'dining_both';
+  if (/chipotle|restaurant|grubhub|doordash|mcdonald|wendy|chick-fil|pizza|taco/i.test(d)) return 'dining_family';
   return 'other';
 }
 
