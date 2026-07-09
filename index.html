@@ -872,15 +872,18 @@ function updateDebtChart(){
 // ══ SETTINGS ══════════════════════════════════════════════════════
 function renderAnnual(){
   const year = curYear;
-  const yearTxs = transactions.filter(t => t.year === year && t.cat !== 'income' && t.cat !== 'transfer');
-  const incomeTxs = transactions.filter(t => t.year === year && t.cat === 'income');
+  // 2026 starts in July (6 months); future years are full Jan–Dec
+  const startMonth = year === 2026 ? 7 : 1;
+  const numMonths = year === 2026 ? 6 : 12;
+  const yearTxs = transactions.filter(t => t.year === year && t.month >= startMonth && t.cat !== 'income' && t.cat !== 'transfer');
+  const incomeTxs = transactions.filter(t => t.year === year && t.month >= startMonth && t.cat === 'income');
 
-  // Total spend & income YTD
+  // Total spend & income for the tracking period
   const totalSpent = yearTxs.reduce((s,t) => s + t.amount, 0);
   const totalIncome = incomeTxs.reduce((s,t) => s + t.amount, 0);
-  const totalBudget = CATS.filter(c=>c.budget>0).reduce((s,c) => s + c.budget * 12, 0);
-  const monthsElapsed = Math.max(1, curMonth); // jan=1
-  const projectedSpend = (totalSpent / monthsElapsed) * 12;
+  const totalBudget = CATS.filter(c=>c.budget>0).reduce((s,c) => s + c.budget * numMonths, 0);
+  const monthsElapsed = Math.max(1, curMonth - startMonth + 1);
+  const projectedSpend = (totalSpent / monthsElapsed) * numMonths;
   const onTrack = projectedSpend <= totalBudget;
 
   document.getElementById('annual-metrics').innerHTML = `
@@ -899,7 +902,7 @@ function renderAnnual(){
   const catRows = CATS.filter(c => catSpend[c.id] > 0).sort((a,b) => (catSpend[b.id]||0)-(catSpend[a.id]||0));
   document.getElementById('annual-cats').innerHTML = catRows.map(c => {
     const spent = catSpend[c.id]||0;
-    const annualBudget = c.budget * 12;
+    const annualBudget = c.budget * numMonths;
     const pct = annualBudget > 0 ? Math.min(spent/annualBudget*100,100) : 0;
     const over = annualBudget > 0 && spent > annualBudget;
     return `<div style="margin-bottom:10px">
@@ -911,10 +914,11 @@ function renderAnnual(){
     </div>`;
   }).join('') || '<div style="color:var(--muted);font-size:12px">No spending data yet</div>';
 
-  // Month-by-month table
-  const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-  const monthlySpend = Array(12).fill(0);
-  yearTxs.forEach(t => { monthlySpend[t.month-1] += t.amount; });
+  // Month-by-month table (Jul–Dec for 2026, Jan–Dec for future years)
+  const allMonths = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const months = allMonths.slice(startMonth - 1, startMonth - 1 + numMonths);
+  const monthlySpend = Array(numMonths).fill(0);
+  yearTxs.forEach(t => { monthlySpend[t.month - startMonth] += t.amount; });
   document.getElementById('annual-table').innerHTML = `
     <table style="width:100%;border-collapse:collapse;font-size:12px">
       <thead><tr>${months.map(m=>`<th style="text-align:right;padding:5px 8px;color:var(--muted);font-weight:500">${m}</th>`).join('')}<th style="text-align:right;padding:5px 8px;color:var(--muted);font-weight:500">Total</th></tr></thead>
@@ -926,7 +930,7 @@ function renderAnnual(){
       }).join('')}<td style="text-align:right;padding:5px 8px;font-family:var(--mono);font-weight:600;color:var(--accent)">$${Math.round(totalSpent).toLocaleString()}</td></tr></tbody>
     </table>`;
 
-  // Monthly trend chart
+  // Monthly trend chart (Jul–Dec)
   const chartData = monthlySpend;
   const monthBudget = CATS.filter(c=>c.budget>0).reduce((a,c)=>a+c.budget,0);
   if(charts.annualLine){charts.annualLine.destroy();}
@@ -936,7 +940,7 @@ function renderAnnual(){
       labels:months,
       datasets:[
         {label:'Spent',data:chartData,backgroundColor:chartData.map(v=>v>monthBudget&&v>0?'rgba(224,92,92,0.7)':'rgba(76,175,130,0.7)'),borderRadius:4},
-        {label:'Budget',data:Array(12).fill(monthBudget),type:'line',borderColor:'rgba(232,197,71,0.6)',borderDash:[4,4],pointRadius:0,fill:false},
+        {label:'Budget',data:Array(numMonths).fill(monthBudget),type:'line',borderColor:'rgba(232,197,71,0.6)',borderDash:[4,4],pointRadius:0,fill:false},
       ]
     },
     options:{responsive:true,maintainAspectRatio:false,
