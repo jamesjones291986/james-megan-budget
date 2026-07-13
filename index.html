@@ -220,6 +220,7 @@ let scriptUrl = localStorage.getItem('jfb_scriptUrl') || '';
 function doLogin() {
   const v = document.getElementById('loginInput').value;
   if (v === PIN) {
+    localStorage.setItem('jfb_auth', Date.now().toString());
     document.getElementById('loginScreen').style.display = 'none';
     document.getElementById('app').style.display = 'block';
     init();
@@ -227,6 +228,17 @@ function doLogin() {
     document.getElementById('loginError').style.display = 'block';
   }
 }
+
+// Check if already authenticated (within 7 days)
+(function checkAuth() {
+  const authTime = parseInt(localStorage.getItem('jfb_auth') || '0');
+  const sevenDays = 7 * 24 * 60 * 60 * 1000;
+  if (authTime && (Date.now() - authTime) < sevenDays) {
+    document.getElementById('loginScreen').style.display = 'none';
+    document.getElementById('app').style.display = 'block';
+    init();
+  }
+})();
 
 // ══ NAVIGATION ═══════════════════════════════════════════════════
 function showView(id) {
