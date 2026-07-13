@@ -460,8 +460,18 @@ async function syncToSheets() {
 }
 
 // ══ INIT ═════════════════════════════════════════════════════════
-function init() {
+async function init() {
   transactions = JSON.parse(localStorage.getItem('jfb_transactions') || '[]');
+  // Load from data file if localStorage is empty
+  if (transactions.length === 0) {
+    try {
+      const r = await fetch('data/transactions_july2026.json');
+      if (r.ok) {
+        transactions = await r.json();
+        saveLocal();
+      }
+    } catch(e) {}
+  }
   if (scriptUrl) syncFromSheets();
   renderMonthly();
 }
