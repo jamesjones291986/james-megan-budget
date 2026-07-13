@@ -1,0 +1,522 @@
+[
+  {
+    "date": "2026-07-01",
+    "desc": "ROUNDPOINT MTG",
+    "amount": 1827.99,
+    "cat": "fixed",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-02",
+    "desc": "SoFi Student Loan",
+    "amount": 315.93,
+    "cat": "fixed",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-03",
+    "desc": "FLAGSTAR HELOC",
+    "amount": 303.03,
+    "cat": "fixed",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-09",
+    "desc": "ATT",
+    "amount": 95.0,
+    "cat": "fixed",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-08",
+    "desc": "Audrey Jones",
+    "amount": 50.0,
+    "cat": "kids",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-10",
+    "desc": "MO FSPC CHILD SUPPORT",
+    "amount": 275.0,
+    "cat": "fixed",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-10",
+    "desc": "MO FSPC FEE",
+    "amount": 6.88,
+    "cat": "fixed",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-09",
+    "desc": "SPIRE BILL PAY",
+    "amount": 25.4,
+    "cat": "fixed",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-12",
+    "desc": "DISNEYPLUS",
+    "amount": 18.99,
+    "cat": "streaming",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-11",
+    "desc": "APPLE TV",
+    "amount": 99.0,
+    "cat": "streaming",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-06",
+    "desc": "NETFLIX",
+    "amount": 26.99,
+    "cat": "streaming",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-07",
+    "desc": "AMC A-List",
+    "amount": 21.81,
+    "cat": "subscriptions",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-03",
+    "desc": "SPI*DIRECTV",
+    "amount": 94.98,
+    "cat": "subscriptions",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-02",
+    "desc": "APPLE.COM/BILL",
+    "amount": 2.99,
+    "cat": "subscriptions",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-01",
+    "desc": "KIRO PRO+",
+    "amount": 40.0,
+    "cat": "subscriptions",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-12",
+    "desc": "Scissors & Scotch",
+    "amount": 51.99,
+    "cat": "personalcare",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-11",
+    "desc": "GLOSS NAIL STUDIO",
+    "amount": 65.0,
+    "cat": "personalcare",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-08",
+    "desc": "INTER-STATE STUDIO",
+    "amount": 56.0,
+    "cat": "kids",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-04",
+    "desc": "GRACE BAPTIST",
+    "amount": 105.17,
+    "cat": "kids",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-02",
+    "desc": "I9 SPORTS",
+    "amount": 88.7,
+    "cat": "kids",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-03",
+    "desc": "QT 186",
+    "amount": 55.74,
+    "cat": "gas",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-01",
+    "desc": "LEES SUMMIT DERMATOLOG",
+    "amount": 138.0,
+    "cat": "medical",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-12",
+    "desc": "Papa Johns",
+    "amount": 44.83,
+    "cat": "dining_family",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-08",
+    "desc": "DoorDash",
+    "amount": 66.22,
+    "cat": "dining_family",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-08",
+    "desc": "DoorDash refund",
+    "amount": -3.09,
+    "cat": "dining_family",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-03",
+    "desc": "Changs Wok",
+    "amount": 65.97,
+    "cat": "dining_family",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-02",
+    "desc": "Chipotle",
+    "amount": 47.79,
+    "cat": "dining_family",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-01",
+    "desc": "Chipotle",
+    "amount": 23.67,
+    "cat": "dining_family",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-11",
+    "desc": "Arbys",
+    "amount": 37.81,
+    "cat": "dining_date",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-10",
+    "desc": "B-B Theatres",
+    "amount": 46.33,
+    "cat": "dining_date",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-10",
+    "desc": "BB Concessions",
+    "amount": 29.79,
+    "cat": "dining_date",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-10",
+    "desc": "Smalls Sliders",
+    "amount": 26.44,
+    "cat": "dining_date",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-08",
+    "desc": "Overstimulated Coffee",
+    "amount": 26.68,
+    "cat": "dining_date",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-05",
+    "desc": "SWIG",
+    "amount": 6.06,
+    "cat": "dining_date",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-10",
+    "desc": "Johnnys Tavern",
+    "amount": 55.02,
+    "cat": "dining_james",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-03",
+    "desc": "Kids Empire",
+    "amount": 70.75,
+    "cat": "kids",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-02",
+    "desc": "Summit Play Village",
+    "amount": 8.52,
+    "cat": "kids",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-02",
+    "desc": "CVS",
+    "amount": 20.02,
+    "cat": "medical",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-12",
+    "desc": "Target.com",
+    "amount": 5.43,
+    "cat": "groceries",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-12",
+    "desc": "Target.com",
+    "amount": 99.45,
+    "cat": "groceries",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-12",
+    "desc": "Target.com",
+    "amount": 5.0,
+    "cat": "groceries",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-11",
+    "desc": "Walmart.com",
+    "amount": 404.7,
+    "cat": "groceries",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-08",
+    "desc": "BADASSCOFFEECOM",
+    "amount": 73.11,
+    "cat": "groceries",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-07",
+    "desc": "Walmart.com",
+    "amount": 76.22,
+    "cat": "groceries",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-07",
+    "desc": "Walmart.com",
+    "amount": 12.88,
+    "cat": "groceries",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-06",
+    "desc": "Walmart refund",
+    "amount": -5.37,
+    "cat": "groceries",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-06",
+    "desc": "Walmart.com",
+    "amount": 4.85,
+    "cat": "groceries",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-04",
+    "desc": "Walmart.com",
+    "amount": 377.96,
+    "cat": "groceries",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-03",
+    "desc": "Target.com",
+    "amount": 79.46,
+    "cat": "groceries",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-03",
+    "desc": "ALDI",
+    "amount": 12.46,
+    "cat": "groceries",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-01",
+    "desc": "Price Chopper",
+    "amount": 83.65,
+    "cat": "groceries",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-01",
+    "desc": "Walmart.com",
+    "amount": 2.17,
+    "cat": "groceries",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-11",
+    "desc": "HARVEYS",
+    "amount": 66.08,
+    "cat": "dining_megan",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-11",
+    "desc": "ADVANCED NUTRITION",
+    "amount": 8.38,
+    "cat": "dining_megan",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-09",
+    "desc": "Amazon.com refund",
+    "amount": -15.64,
+    "cat": "household",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-09",
+    "desc": "Amazon.com refund",
+    "amount": -30.38,
+    "cat": "household",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-08",
+    "desc": "Amazon.com",
+    "amount": 76.01,
+    "cat": "household",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-08",
+    "desc": "Amazon.com",
+    "amount": 10.85,
+    "cat": "household",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-08",
+    "desc": "Amazon.com",
+    "amount": 26.31,
+    "cat": "household",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-07",
+    "desc": "Amazon.com",
+    "amount": 31.21,
+    "cat": "household",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-07",
+    "desc": "Amazon.com",
+    "amount": 36.91,
+    "cat": "household",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-04",
+    "desc": "Amazon.com",
+    "amount": 47.97,
+    "cat": "household",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-10",
+    "desc": "Kohls Online",
+    "amount": 131.18,
+    "cat": "clothing",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-10",
+    "desc": "7 Brew Coffee",
+    "amount": 24.08,
+    "cat": "coffee",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-05",
+    "desc": "Five Below",
+    "amount": 2.19,
+    "cat": "kids",
+    "month": 7,
+    "year": 2026
+  }
+]
