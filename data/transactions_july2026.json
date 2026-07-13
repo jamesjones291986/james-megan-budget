@@ -35,7 +35,7 @@
     "date": "2026-07-08",
     "desc": "Audrey Jones",
     "amount": 50.0,
-    "cat": "kids",
+    "cat": "dining_family",
     "month": 7,
     "year": 2026
   },
@@ -139,7 +139,7 @@
     "date": "2026-07-08",
     "desc": "INTER-STATE STUDIO",
     "amount": 56.0,
-    "cat": "kids",
+    "cat": "dining_family",
     "month": 7,
     "year": 2026
   },
@@ -147,7 +147,7 @@
     "date": "2026-07-04",
     "desc": "GRACE BAPTIST",
     "amount": 105.17,
-    "cat": "kids",
+    "cat": "dining_family",
     "month": 7,
     "year": 2026
   },
@@ -155,7 +155,7 @@
     "date": "2026-07-02",
     "desc": "I9 SPORTS",
     "amount": 88.7,
-    "cat": "kids",
+    "cat": "dining_family",
     "month": 7,
     "year": 2026
   },
@@ -283,7 +283,7 @@
     "date": "2026-07-03",
     "desc": "Kids Empire",
     "amount": 70.75,
-    "cat": "kids",
+    "cat": "dining_family",
     "month": 7,
     "year": 2026
   },
@@ -291,7 +291,7 @@
     "date": "2026-07-02",
     "desc": "Summit Play Village",
     "amount": 8.52,
-    "cat": "kids",
+    "cat": "dining_family",
     "month": 7,
     "year": 2026
   },
@@ -515,7 +515,7 @@
     "date": "2026-07-05",
     "desc": "Five Below",
     "amount": 2.19,
-    "cat": "kids",
+    "cat": "dining_family",
     "month": 7,
     "year": 2026
   }
