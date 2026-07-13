@@ -187,22 +187,18 @@ textarea:focus { border-color: var(--blue); }
 const PIN = '2026';
 
 const CATS = [
-  {id:'fixed',name:'Fixed Bills',color:'#6080a0',budget:0},
-  {id:'groceries',name:'Groceries',color:'#2d9a5c',budget:600},
+  {id:'fixed',name:'Fixed Bills',color:'#6080a0',budget:2850},
+  {id:'groceries',name:'Groceries',color:'#2d9a5c',budget:1600},
   {id:'dining_james',name:'James Dining/Entertainment',color:'#dc3545',budget:200},
   {id:'dining_megan',name:'Megan Dining/Entertainment',color:'#e67e22',budget:200},
   {id:'dining_family',name:'Family Dining/Entertainment',color:'#8b5cf6',budget:200},
   {id:'dining_date',name:'Date Night',color:'#ec4899',budget:200},
-  {id:'gas',name:'Gas / Fuel',color:'#6c757d',budget:130},
-  {id:'debt',name:'Debt Paydown',color:'#e67e22',budget:1600},
-  {id:'streaming',name:'Streaming',color:'#2563eb',budget:68},
-  {id:'gaming',name:'Gaming',color:'#7c3aed',budget:42},
+  {id:'gas',name:'Gas / Fuel',color:'#6c757d',budget:200},
+  {id:'streaming',name:'Streaming',color:'#2563eb',budget:145},
+  {id:'subscriptions',name:'Subscriptions',color:'#7c3aed',budget:160},
   {id:'personalcare',name:'Personal Care',color:'#f59e0b',budget:120},
-  {id:'kids',name:'Kids',color:'#06b6d4',budget:75},
-  {id:'coffee',name:'Coffee',color:'#92400e',budget:106},
-  {id:'household',name:'Household / Amazon',color:'#65a30d',budget:200},
-  {id:'utilities',name:'Utilities',color:'#4b5563',budget:0},
-  {id:'subscriptions',name:'Subscriptions',color:'#7c3aed',budget:0},
+  {id:'kids',name:'Kids',color:'#06b6d4',budget:200},
+  {id:'household',name:'Household / Amazon',color:'#65a30d',budget:0},
   {id:'medical',name:'Medical',color:'#dc3545',budget:0},
   {id:'clothing',name:'Clothing',color:'#ec4899',budget:0},
   {id:'income',name:'Income',color:'#2d9a5c',budget:0},
@@ -406,7 +402,7 @@ function guessCategory(desc) {
   if (/shell|quik|gas|fuel|casey|bp\b/i.test(d)) return 'gas';
   if (/netflix|hulu|spotify|disney|youtube|apple.*tv|hbo/i.test(d)) return 'streaming';
   if (/amazon|amzn/i.test(d)) return 'household';
-  if (/starbucks|scooter|coffee/i.test(d)) return 'coffee';
+  if (/starbucks|scooter|coffee|7 brew|swig/i.test(d)) return 'groceries';
   if (/chipotle|restaurant|grubhub|doordash|mcdonald|wendy|chick-fil|pizza|taco/i.test(d)) return 'dining_family';
   return 'other';
 }
