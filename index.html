@@ -325,16 +325,33 @@ function renderMonthly() {
   const catSpend = {};
   txs.forEach(t => { catSpend[t.cat] = (catSpend[t.cat] || 0) + t.amount; });
 
+  // Build subcategory breakdown for savings
+  const subSpend = {};
+  txs.forEach(t => {
+    if (t.cat === 'savings' && t.sub) {
+      subSpend[t.sub] = (subSpend[t.sub] || 0) + t.amount;
+    }
+  });
+
   const rows = CATS.filter(c => c.budget > 0 || (catSpend[c.id] || 0) > 0);
   document.getElementById('monthly-cats').innerHTML = rows.map(c => {
     const spent = catSpend[c.id] || 0;
     const pct = c.budget > 0 ? Math.min((spent / c.budget) * 100, 100) : 0;
     const over = c.budget > 0 && spent > c.budget;
     const fillClass = over ? 'fill-red' : pct > 75 ? 'fill-amber' : 'fill-green';
+    // Subcategory breakdown for savings
+    let subBreakdown = '';
+    if (c.id === 'savings' && Object.keys(subSpend).length > 0) {
+      subBreakdown = '<div style="margin-top:8px;padding-left:12px;font-size:12px;color:var(--muted)">' +
+        Object.entries(subSpend).sort((a,b) => b[1]-a[1]).map(([sub, amt]) =>
+          `<div style="display:flex;justify-content:space-between;padding:2px 0"><span>${sub}</span><span>$${Math.round(amt).toLocaleString()}</span></div>`
+        ).join('') + '</div>';
+    }
     return `<div class="budget-row">
       <div style="flex:1">
         <div class="cat-name">${c.name}</div>
         ${c.budget > 0 ? `<div class="progress-bar"><div class="progress-fill ${fillClass}" style="width:${pct}%"></div></div>` : ''}
+        ${subBreakdown}
       </div>
       <div class="amounts">
         <div class="spent" style="color:${over ? 'var(--red)' : 'var(--text)'}">$${Math.round(spent).toLocaleString()}</div>

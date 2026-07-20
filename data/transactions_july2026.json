@@ -173,7 +173,8 @@
     "amount": 138.0,
     "cat": "savings",
     "month": 7,
-    "year": 2026
+    "year": 2026,
+    "sub": "Medical"
   },
   {
     "date": "2026-07-12",
@@ -301,7 +302,8 @@
     "amount": 20.02,
     "cat": "savings",
     "month": 7,
-    "year": 2026
+    "year": 2026,
+    "sub": "Medical"
   },
   {
     "date": "2026-07-12",
@@ -501,7 +503,8 @@
     "amount": 131.18,
     "cat": "savings",
     "month": 7,
-    "year": 2026
+    "year": 2026,
+    "sub": "Clothing"
   },
   {
     "date": "2026-07-10",
@@ -549,7 +552,8 @@
     "amount": 17.67,
     "cat": "savings",
     "month": 7,
-    "year": 2026
+    "year": 2026,
+    "sub": "Medical"
   },
   {
     "date": "2026-07-16",
@@ -557,7 +561,8 @@
     "amount": 28.13,
     "cat": "savings",
     "month": 7,
-    "year": 2026
+    "year": 2026,
+    "sub": "Medical"
   },
   {
     "date": "2026-07-18",
@@ -565,7 +570,8 @@
     "amount": 52.0,
     "cat": "savings",
     "month": 7,
-    "year": 2026
+    "year": 2026,
+    "sub": "Medical"
   },
   {
     "date": "2026-07-15",
@@ -621,7 +627,8 @@
     "amount": 285.6,
     "cat": "savings",
     "month": 7,
-    "year": 2026
+    "year": 2026,
+    "sub": "Gifts"
   },
   {
     "date": "2026-07-15",
@@ -629,7 +636,8 @@
     "amount": 783.0,
     "cat": "savings",
     "month": 7,
-    "year": 2026
+    "year": 2026,
+    "sub": "Home maintenance"
   },
   {
     "date": "2026-07-14",
@@ -637,7 +645,8 @@
     "amount": 282.6,
     "cat": "savings",
     "month": 7,
-    "year": 2026
+    "year": 2026,
+    "sub": "Home maintenance"
   },
   {
     "date": "2026-07-18",
@@ -645,7 +654,8 @@
     "amount": 154.57,
     "cat": "savings",
     "month": 7,
-    "year": 2026
+    "year": 2026,
+    "sub": "Travel"
   },
   {
     "date": "2026-07-16",
