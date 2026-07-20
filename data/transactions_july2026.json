@@ -67,7 +67,7 @@
     "date": "2026-07-12",
     "desc": "DISNEYPLUS",
     "amount": 18.99,
-    "cat": "streaming",
+    "cat": "subscriptions",
     "month": 7,
     "year": 2026
   },
@@ -75,7 +75,7 @@
     "date": "2026-07-11",
     "desc": "APPLE TV",
     "amount": 99.0,
-    "cat": "streaming",
+    "cat": "subscriptions",
     "month": 7,
     "year": 2026
   },
@@ -83,7 +83,7 @@
     "date": "2026-07-06",
     "desc": "NETFLIX",
     "amount": 26.99,
-    "cat": "streaming",
+    "cat": "subscriptions",
     "month": 7,
     "year": 2026
   },
