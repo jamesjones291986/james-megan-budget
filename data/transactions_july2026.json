@@ -518,5 +518,413 @@
     "cat": "dining_family",
     "month": 7,
     "year": 2026
+  },
+  {
+    "date": "2026-07-15",
+    "desc": "CASS COUNTY PWSD 3 (water)",
+    "amount": 61.91,
+    "cat": "fixed",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-15",
+    "desc": "EVERGY (electric)",
+    "amount": 294.99,
+    "cat": "fixed",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-19",
+    "desc": "GEICO (auto insurance)",
+    "amount": 152.13,
+    "cat": "fixed",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-13",
+    "desc": "COMMUNITY CHOICE PEDIA",
+    "amount": 17.67,
+    "cat": "medical",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-16",
+    "desc": "MINUTECLINIC",
+    "amount": 28.13,
+    "cat": "medical",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-18",
+    "desc": "KAYLA GALLO THERAPY",
+    "amount": 52.0,
+    "cat": "medical",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-15",
+    "desc": "PHILLIPS 66",
+    "amount": 44.06,
+    "cat": "gas",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-13",
+    "desc": "RING SOLO PLAN",
+    "amount": 4.99,
+    "cat": "subscriptions",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-18",
+    "desc": "Peacock",
+    "amount": 23.08,
+    "cat": "subscriptions",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-18",
+    "desc": "Fandango at Home",
+    "amount": 14.99,
+    "cat": "subscriptions",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-16",
+    "desc": "COLDWATER",
+    "amount": 41.72,
+    "cat": "charity",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-16",
+    "desc": "NOGGINS (kids haircuts)",
+    "amount": 65.0,
+    "cat": "personalcare",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-18",
+    "desc": "NKD SKN HEADSPA (Megan mom bday gift)",
+    "amount": 285.6,
+    "cat": "savings",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-15",
+    "desc": "CLEAN HEART MAIDS",
+    "amount": 783.0,
+    "cat": "savings",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-14",
+    "desc": "LEES SUMMIT HEATING & COOLING",
+    "amount": 282.6,
+    "cat": "savings",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-18",
+    "desc": "Booking.com (Megan trip)",
+    "amount": 154.57,
+    "cat": "savings",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-16",
+    "desc": "K MACHOS",
+    "amount": 80.67,
+    "cat": "dining_james",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-16",
+    "desc": "7 Brew Coffee",
+    "amount": 35.69,
+    "cat": "dining_family",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-16",
+    "desc": "AMC subscription",
+    "amount": 20.14,
+    "cat": "subscriptions",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-15",
+    "desc": "ROLLNROAST COFFEE",
+    "amount": 52.39,
+    "cat": "dining_family",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-18",
+    "desc": "30 HOP",
+    "amount": 27.6,
+    "cat": "dining_megan",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-19",
+    "desc": "Royals tickets",
+    "amount": 117.0,
+    "cat": "dining_family",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-19",
+    "desc": "Aramark (stadium food)",
+    "amount": 15.28,
+    "cat": "dining_family",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-19",
+    "desc": "Aramark (stadium food)",
+    "amount": 9.31,
+    "cat": "dining_family",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-19",
+    "desc": "Aramark (stadium food)",
+    "amount": 14.16,
+    "cat": "dining_family",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-19",
+    "desc": "Aramark (stadium food)",
+    "amount": 15.28,
+    "cat": "dining_family",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-19",
+    "desc": "ROYALS OUTFIELD EXPERIENCE",
+    "amount": 10.0,
+    "cat": "dining_family",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-19",
+    "desc": "Jimmy Johns",
+    "amount": 9.25,
+    "cat": "dining_family",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-18",
+    "desc": "Chicken N Pickle",
+    "amount": 1.06,
+    "cat": "dining_family",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-15",
+    "desc": "SWIG",
+    "amount": 5.74,
+    "cat": "dining_megan",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-15",
+    "desc": "QuikTrip",
+    "amount": 58.04,
+    "cat": "gas",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-13",
+    "desc": "Walmart.com",
+    "amount": 377.33,
+    "cat": "groceries",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-18",
+    "desc": "Walmart.com",
+    "amount": 211.46,
+    "cat": "groceries",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-18",
+    "desc": "Walmart.com",
+    "amount": 222.86,
+    "cat": "groceries",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-18",
+    "desc": "Walmart.com",
+    "amount": 7.9,
+    "cat": "groceries",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-18",
+    "desc": "Walmart.com refund",
+    "amount": -4.66,
+    "cat": "groceries",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-19",
+    "desc": "Walmart.com refund",
+    "amount": -12.88,
+    "cat": "groceries",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-19",
+    "desc": "Price Chopper",
+    "amount": 55.45,
+    "cat": "groceries",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-17",
+    "desc": "SAMS CLUB",
+    "amount": 199.21,
+    "cat": "groceries",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-14",
+    "desc": "Amazon",
+    "amount": 21.41,
+    "cat": "household",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-14",
+    "desc": "Target.com",
+    "amount": 5.0,
+    "cat": "household",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-15",
+    "desc": "Amazon",
+    "amount": 70.68,
+    "cat": "household",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-15",
+    "desc": "Amazon",
+    "amount": 86.84,
+    "cat": "household",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-15",
+    "desc": "Amazon",
+    "amount": 43.42,
+    "cat": "household",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-17",
+    "desc": "Amazon",
+    "amount": 27.14,
+    "cat": "household",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-17",
+    "desc": "Amazon",
+    "amount": 60.76,
+    "cat": "household",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-18",
+    "desc": "Amazon refund",
+    "amount": -76.01,
+    "cat": "household",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-19",
+    "desc": "Amazon",
+    "amount": 55.54,
+    "cat": "household",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-12",
+    "desc": "Target.com",
+    "amount": 76.37,
+    "cat": "household",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-12",
+    "desc": "Target.com",
+    "amount": 5.0,
+    "cat": "household",
+    "month": 7,
+    "year": 2026
+  },
+  {
+    "date": "2026-07-13",
+    "desc": "Target.com",
+    "amount": 5.43,
+    "cat": "household",
+    "month": 7,
+    "year": 2026
   }
 ]
