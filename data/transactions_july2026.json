@@ -609,9 +609,10 @@
     "date": "2026-07-16",
     "desc": "COLDWATER",
     "amount": 41.72,
-    "cat": "charity",
+    "cat": "savings",
     "month": 7,
-    "year": 2026
+    "year": 2026,
+    "sub": "Charity"
   },
   {
     "date": "2026-07-16",
