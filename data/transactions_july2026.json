@@ -171,7 +171,7 @@
     "date": "2026-07-01",
     "desc": "LEES SUMMIT DERMATOLOG",
     "amount": 138.0,
-    "cat": "medical",
+    "cat": "savings",
     "month": 7,
     "year": 2026
   },
@@ -299,7 +299,7 @@
     "date": "2026-07-02",
     "desc": "CVS",
     "amount": 20.02,
-    "cat": "medical",
+    "cat": "savings",
     "month": 7,
     "year": 2026
   },
@@ -499,7 +499,7 @@
     "date": "2026-07-10",
     "desc": "Kohls Online",
     "amount": 131.18,
-    "cat": "clothing",
+    "cat": "savings",
     "month": 7,
     "year": 2026
   },
@@ -547,7 +547,7 @@
     "date": "2026-07-13",
     "desc": "COMMUNITY CHOICE PEDIA",
     "amount": 17.67,
-    "cat": "medical",
+    "cat": "savings",
     "month": 7,
     "year": 2026
   },
@@ -555,7 +555,7 @@
     "date": "2026-07-16",
     "desc": "MINUTECLINIC",
     "amount": 28.13,
-    "cat": "medical",
+    "cat": "savings",
     "month": 7,
     "year": 2026
   },
@@ -563,7 +563,7 @@
     "date": "2026-07-18",
     "desc": "KAYLA GALLO THERAPY",
     "amount": 52.0,
-    "cat": "medical",
+    "cat": "savings",
     "month": 7,
     "year": 2026
   },
