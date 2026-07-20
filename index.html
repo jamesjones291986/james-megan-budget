@@ -632,16 +632,16 @@ async function syncToSheets() {
 
 // ══ INIT ═════════════════════════════════════════════════════════
 async function init() {
-  transactions = JSON.parse(localStorage.getItem('jfb_transactions') || '[]');
-  // Load from data file if localStorage is empty
-  if (transactions.length === 0) {
-    try {
-      const r = await fetch('data/transactions_july2026.json');
-      if (r.ok) {
-        transactions = await r.json();
-        saveLocal();
-      }
-    } catch(e) {}
+  // Always load from data file (source of truth)
+  try {
+    const r = await fetch('data/transactions_july2026.json?' + Date.now());
+    if (r.ok) {
+      transactions = await r.json();
+      saveLocal();
+    }
+  } catch(e) {
+    // Fallback to localStorage if file can't load
+    transactions = JSON.parse(localStorage.getItem('jfb_transactions') || '[]');
   }
   if (scriptUrl) syncFromSheets();
   renderMonthly();
