@@ -676,9 +676,9 @@
   },
   {
     "date": "2026-07-16",
-    "desc": "AMC subscription",
+    "desc": "AMC concessions",
     "amount": 20.14,
-    "cat": "subscriptions",
+    "cat": "dining_james",
     "month": 7,
     "year": 2026
   },
